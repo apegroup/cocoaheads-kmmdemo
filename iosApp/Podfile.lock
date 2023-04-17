@@ -1,0 +1,61 @@
+PODS:
+  - composeApp (1.0.0)
+  - Kingfisher (7.6.2)
+  - KMMViewModelCore (1.0.0-ALPHA-6):
+    - KMMViewModelCoreObjC (= 1.0.0-ALPHA-6)
+  - KMMViewModelCoreObjC (1.0.0-ALPHA-6)
+  - KMMViewModelSwiftUI (1.0.0-ALPHA-6):
+    - KMMViewModelCore (= 1.0.0-ALPHA-6)
+  - KMPNativeCoroutinesAsync (1.0.0-ALPHA-6):
+    - KMPNativeCoroutinesCore (= 1.0.0-ALPHA-6)
+  - KMPNativeCoroutinesCombine (1.0.0-ALPHA-6):
+    - KMPNativeCoroutinesCore (= 1.0.0-ALPHA-6)
+  - KMPNativeCoroutinesCore (1.0.0-ALPHA-6)
+  - KMPNativeCoroutinesRxSwift (1.0.0-ALPHA-6):
+    - KMPNativeCoroutinesCore (= 1.0.0-ALPHA-6)
+    - RxSwift (~> 6.0)
+  - RxSwift (6.5.0)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - composeApp (from `../composeApp`)
+  - Kingfisher (~> 7.0)
+  - KMMViewModelSwiftUI (= 1.0.0-ALPHA-6)
+  - KMPNativeCoroutinesAsync (= 1.0.0-ALPHA-6)
+  - KMPNativeCoroutinesCombine (= 1.0.0-ALPHA-6)
+  - KMPNativeCoroutinesRxSwift (= 1.0.0-ALPHA-6)
+  - SwiftLint (= 0.43.1)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - KMMViewModelCore
+    - KMMViewModelCoreObjC
+    - KMMViewModelSwiftUI
+    - KMPNativeCoroutinesAsync
+    - KMPNativeCoroutinesCombine
+    - KMPNativeCoroutinesCore
+    - KMPNativeCoroutinesRxSwift
+    - RxSwift
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  composeApp:
+    :path: "../composeApp"
+
+SPEC CHECKSUMS:
+  composeApp: d08f1d755a0fe06e493ec7b5d1f9f35642bdeb6f
+  Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
+  KMMViewModelCore: 1b5555d59dec518a9c74965683c0a916150dc0dc
+  KMMViewModelCoreObjC: b890db456c14afb392e0cb2cd0da65644757e631
+  KMMViewModelSwiftUI: 841aa25ba39022d7c924a1dafec4c552750da0db
+  KMPNativeCoroutinesAsync: 05e23198a8607af5abbb016beeed5586ab69d40e
+  KMPNativeCoroutinesCombine: b3eed8645d4999fcef248a22bea8880bde18fbd9
+  KMPNativeCoroutinesCore: ee5236cd93d3f96c594d3d7ea4245739cb06a367
+  KMPNativeCoroutinesRxSwift: 361ef6cf15f390807564141269d7cae9aa83b2e7
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: fe06703d8b29ec60f90a35193e27402b0ffbafa4
+
+COCOAPODS: 1.12.0
